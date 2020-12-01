@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/commands/commands.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-shared-runtime"
+    }
+  },
+  "defaultProject": "angular-shared-runtime",
+  "cli": {
+    "analytics": false
+  }
 }
